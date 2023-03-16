@@ -11,7 +11,7 @@ from googlesearch import search
 
 def geturl(lang, what):
     if lang == "custom c++":
-        return "[custom c++](https://www.frisky.world)"
+        return "[custom c++](https://www.randomguy.info)"
     query = "{} {}".format(lang, what)
 
     for j in search(query, tld="co.in", num=1, stop=1, pause=2):

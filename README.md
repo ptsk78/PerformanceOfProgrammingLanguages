@@ -11,5 +11,3 @@
 |  [go](https://no.wikipedia.org/wiki/Go_(programmeringsspr%C3%A5k))  |                            go version go1.20.2 linux/amd64                             |                   3.934                    |         2.589          |           9.499           |            17.290            |
 |              [perl](https://en.wikipedia.org/wiki/Perl)             | This is perl 5, version 36, subversion 0 (v5.36.0) built for x86_64-linux-thread-multi |                   4.209                    |         4.007          |           6.565           |            17.423            |
 | [julia](https://en.wikipedia.org/wiki/Julia_(programming_language)) |                                  julia version 1.8.5                                   |                   6.599                    |         6.154          |           6.702           |            28.629            |
-|              [codon](https://github.com/exaloop/codon)              |                                         0.15.5                                         |                   11.399                   |         2.251          |           31.644          |            15.914            |
-

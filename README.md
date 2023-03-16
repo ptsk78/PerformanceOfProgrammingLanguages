@@ -11,3 +11,7 @@
 |  [go](https://go.dev/)  |                            go version go1.20.2 linux/amd64                             |                   3.864                    |         2.604          |           9.275           |            18.060            |
 |              [perl](https://en.wikipedia.org/wiki/Perl)             | This is perl 5, version 36, subversion 0 (v5.36.0) built for x86_64-linux-thread-multi |                   4.257                    |         3.976          |           6.692           |            17.880            |
 | [julia](https://en.wikipedia.org/wiki/Julia_(programming_language)) |                                  julia version 1.8.5                                   |                   6.558                    |         6.156          |           6.658           |            29.272            |
+
+![perfcomp_final](./img/perfcomp_final.png)
+![perfcomp1](./img/perfcomp1.png)
+![cpumem1](./img/cpumem1.png)

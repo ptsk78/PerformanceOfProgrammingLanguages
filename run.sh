@@ -73,18 +73,18 @@ install_languages() {
     pip3 install --upgrade -r requirements.txt
 
     # https://go.dev/dl/
-    if [ ! -f ./go1.18.1.linux-amd64.tar.gz ]; then
-        wget https://go.dev/dl/go1.18.1.linux-amd64.tar.gz
+    if [ ! -f ./go1.20.2.linux-amd64.tar.gz ]; then
+        wget https://go.dev/dl/go1.20.2.linux-amd64.tar.gz
     fi
     rm -rf ./go
-    tar -C ./ -xzf go1.18.1.linux-amd64.tar.gz
+    tar -C ./ -xzf go1.20.2.linux-amd64.tar.gz
 
     # https://dotnet.microsoft.com/en-us/download/dotnet
-    if [ ! -f ./dotnet-sdk-6.0.202-linux-x64.tar.gz ]; then
-        wget https://download.visualstudio.microsoft.com/download/pr/9d8c7137-2091-4fc6-a419-60ba59c8b9de/db0c5cda94f31d2260d369123de32d59/dotnet-sdk-6.0.202-linux-x64.tar.gz
+    if [ ! -f ./dotnet-sdk-7.0.202-linux-x64.tar.gz ]; then
+        wget https://download.visualstudio.microsoft.com/download/pr/bda88810-e1a6-4cf0-8139-7fd7fe7b2c7a/7a9ffa3e12e5f1c3d8b640e326c1eb14/dotnet-sdk-7.0.202-linux-x64.tar.gz
     fi
     mkdir ./dotnet
-    tar zxf dotnet-sdk-6.0.202-linux-x64.tar.gz -C ./dotnet
+    tar zxf dotnet-sdk-7.0.202-linux-x64.tar.gz -C ./dotnet
     export DOTNET_ROOT=./dotnet
     export PATH=$PATH:./dotnet
 
@@ -140,7 +140,7 @@ do
     sleep 1
     java MainJava >> java.perf$i
     sleep 1
-    ./bin/Release/net6.0/main >> c#.perf$i
+    ./bin/Release/net7.0/main >> c#.perf$i
     sleep 1
     julia main.julia >> julia.perf$i
     sleep 1

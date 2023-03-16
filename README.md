@@ -2,7 +2,7 @@
 
 |                               Language                              |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |
 |--------|--------|--------|--------|--------|--------|
-|                custom c++               |                                         (0,0)                                          |                   0.354                    |         0.325          |           6.809           |            21.681            |
+|                [custom c++](https://www.randomguy.info/)               |                                         (0,0)                                          |                   0.354                    |         0.325          |           6.809           |            21.681            |
 |              [pypy](https://en.wikipedia.org/wiki/PyPy)             |    Python 2.7.18 (Dec 31 2022, 19:17:26)     |                   1.555                    |         1.400          |           6.945           |            16.760            |
 |                  [rust](https://www.rust-lang.org/)                 |                          rustc 1.68.0 (2c8cc3432 2023-03-06)                           |                   1.646                    |         1.542          |           6.671           |            16.268            |
 |             [c++](https://en.wikipedia.org/wiki/C%2B%2B)            |                               g++ (GCC) 12.2.1 20230201                                |                   1.768                    |         1.616          |           6.837           |            16.523            |

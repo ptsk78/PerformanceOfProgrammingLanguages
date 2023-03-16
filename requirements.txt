@@ -1,0 +1,5 @@
+PrettyTable
+psutil
+matplotlib
+pandas
+distro

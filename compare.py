@@ -177,7 +177,7 @@ plt.gcf().set_size_inches(13, 13)
 plt.savefig('perfcomp_final.png')
 
 x = PrettyTable()
-x.field_names = ['Language', 'Version', 'Adjusted time based on CPU usage (seconds)', 'Average time (seconds)', 'Average CPU usage[^1] (%)', 'Average memory usage[^1] (%)']
+x.field_names = ['Language', 'Version', 'Adjusted time based on CPU usage (seconds)', 'Average time (seconds)', 'Average CPU usage (%)', 'Average memory usage (%)']
 for f in final:
     x.add_row([geturl(f[0], 'programming language'), getLangVer(f[0]),"{:.3f}".format(f[1]), "{:.3f}".format(f[2]), "{:.3f}".format(f[3]), "{:.3f}".format(f[4])])
 yy = 'Lower is better - on {} on {}:\n'.format(distroname(), today.strftime("%Y-%m-%d"))

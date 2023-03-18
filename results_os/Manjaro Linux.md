@@ -2,7 +2,7 @@
 Lower is better - on [Manjaro Linux](https://manjaro.org/) 
 Linux-6.1.19-1-MANJARO-x86_64-with-glibc2.37 on 2023-03-18:
 
-|                               Language                              |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage[^1] (%) | Average memory usage[^1] (%) |
+|                               Language                              |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |
 |:-------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:------------------------------------------:|:----------------------:|:-------------------------:|:----------------------------:|
 |               [custom c++](https://www.randomguy.info)              |                                         (0,0)                                          |                   0.354                    |         0.323          |           6.845           |            21.069            |
 |              [pypy](https://en.wikipedia.org/wiki/PyPy)             |    Python 2.7.18 (646866ee1eabe7bdbdc97b47a40b472991d571e9, Dec 31 2022, 19:17:26)     |                   1.539                    |         1.381          |           6.964           |            15.922            |

@@ -61,7 +61,8 @@ install_languages() {
     pkg=g++
     install_pck
     # https://openjdk.java.net/projects/jdk/
-    pkg=openjdk-18-jdk
+    # pkg=openjdk-18-jdk
+    pkg=jdk-openjdk
     install_pck
     pkg=curl
     install_pck

@@ -52,16 +52,12 @@ clean_up() {
 install_languages() {
     pkg=wget
     install_pck
-    pkg=google-chrome
-    install_pck
     pkg=python3-pip
     install_pck
     pkg=pypy
     install_pck
     pkg=g++
     install_pck
-    # https://openjdk.java.net/projects/jdk/
-    # pkg=openjdk-18-jdk
     pkg=jdk-openjdk
     install_pck
     pkg=curl
@@ -91,6 +87,8 @@ install_languages() {
 
     # https://www.rust-lang.org/tools/install
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+    mkdir results_os
 }
 
 compile_source() {

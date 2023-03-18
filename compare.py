@@ -184,7 +184,7 @@ yy = 'Lower is better - on {} on {}:\n'.format(distroname(), today.strftime("%Y-
 print(yy)
 print(x)
 
-f = open("./results_os/{}.txt".format(get_name()), "wt")
+f = open("./results_os/{}.md".format(get_name()), "wt")
 f.write('\n')
 f.write(yy)
 f.write('\n')

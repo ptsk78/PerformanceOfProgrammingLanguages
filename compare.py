@@ -8,6 +8,8 @@ from prettytable import PrettyTable, MARKDOWN
 import distro
 import platform
 from googlesearch import search
+import psutil
+import subprocess
 
 def geturl(lang, what):
     if lang == "custom c++":
@@ -176,11 +178,16 @@ df.plot(x='Language', kind='bar', stacked=False, title='Performance on {} ({})'.
 plt.gcf().set_size_inches(13, 13)
 plt.savefig('perfcomp_final.png')
 
+procname = str(subprocess.run(["lscpu"], capture_output=True))
+procname = procname[procname.find('Model name:')+11:]
+procname = procname[:procname.find('\\')].strip()
+procname = geturl(procname, 'CPU')
+
 x = PrettyTable()
 x.field_names = ['Language', 'Version', 'Adjusted time based on CPU usage (seconds)', 'Average time (seconds)', 'Average CPU usage (%)', 'Average memory usage (%)']
 for f in final:
     x.add_row([geturl(f[0], 'programming language'), getLangVer(f[0]),"{:.3f}".format(f[1]), "{:.3f}".format(f[2]), "{:.3f}".format(f[3]), "{:.3f}".format(f[4])])
-yy = 'Lower is better - on {} on {}:\n'.format(distroname(), today.strftime("%Y-%m-%d"))
+yy = 'Lower is better - on {} on {} with {} and {:.1f} GB of RAM memory:\n'.format(distroname(), today.strftime("%Y-%m-%d"), procname, psutil.virtual_memory().total/1024/1024/1024)
 print(yy)
 print(x)
 

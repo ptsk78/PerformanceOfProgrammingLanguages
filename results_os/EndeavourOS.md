@@ -1,0 +1,16 @@
+
+Lower is better - on EndeavourOS 
+Linux-6.2.10-arch1-1-x86_64-with-glibc2.37 on 2023-04-09 with AMD Ryzen 7 5825U with Radeon Graphics and 13.5 GB of RAM memory:
+
+|                 Language                 |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |
+|:----------------------------------------:|:--------------------------------------------------------------------------------------:|:------------------------------------------:|:----------------------:|:---------------------:|:------------------------:|
+| [custom c++](https://www.randomguy.info) |                                         (0,0)                                          |                   0.347                    |         0.324          |         6.696         |          21.845          |
+|                   pypy                   |    Python 2.7.18 (646866ee1eabe7bdbdc97b47a40b472991d571e9, Dec 31 2022, 19:17:26)     |                   1.455                    |         1.388          |         6.551         |          16.791          |
+|                   rust                   |                          rustc 1.68.2 (9eb3afe9e 2023-03-27)                           |                   1.595                    |         1.536          |         6.489         |          16.638          |
+|                   c++                    |                               g++ (GCC) 12.2.1 20230201                                |                   1.691                    |         1.583          |         6.677         |          16.687          |
+|                javascript                |                                        v19.8.1                                         |                   2.356                    |         2.124          |         6.933         |          16.990          |
+|                    c#                    |                                        7.0.202                                         |                   2.852                    |         2.709          |         6.581         |          18.096          |
+|                   java                   |                               openjdk 19.0.2 2023-01-17                                |                   3.163                    |         1.055          |         18.733        |          27.006          |
+|                    go                    |                            go version go1.20.2 linux/amd64                             |                   3.649                    |         2.610          |         8.738         |          18.182          |
+|                   perl                   | This is perl 5, version 36, subversion 0 (v5.36.0) built for x86_64-linux-thread-multi |                   4.093                    |         3.907          |         6.547         |          17.871          |
+|                  julia                   |                                  julia version 1.8.5                                   |                   6.396                    |         6.153          |         6.496         |          29.293          |

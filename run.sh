@@ -70,11 +70,11 @@ install_languages() {
     pip3 install --upgrade -r requirements.txt
 
     # https://go.dev/dl/
-    if [ ! -f ./go1.20.2.linux-amd64.tar.gz ]; then
-        wget https://go.dev/dl/go1.20.2.linux-amd64.tar.gz
+    if [ ! -f ./go1.20.3.linux-amd64.tar.gz ]; then
+        wget https://go.dev/dl/go1.20.3.linux-amd64.tar.gz
     fi
     rm -rf ./go
-    tar -C ./ -xzf go1.20.2.linux-amd64.tar.gz
+    tar -C ./ -xzf go1.20.3.linux-amd64.tar.gz
 
     # https://dotnet.microsoft.com/en-us/download/dotnet
     if [ ! -f ./dotnet-sdk-7.0.203-linux-x64.tar.gz ]; then

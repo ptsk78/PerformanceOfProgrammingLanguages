@@ -1,6 +1,6 @@
 
 Lower is better - on Regata OS 23
-Linux-6.2.10-lp154.5-default-x86_64-with-glibc2.3.4 on 2023-04-21 with rocess(args=['lscpu'], returncode=0 and 13.5 GB of RAM memory:
+Linux-6.2.10-lp154.5-default-x86_64-with-glibc2.3.4 on 2023-04-21 with 13.5 GB of RAM memory:
 
 |                 Language                 |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |
 |:----------------------------------------:|:--------------------------------------------------------------------------------------:|:------------------------------------------:|:----------------------:|:---------------------:|:------------------------:|

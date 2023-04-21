@@ -1,4 +1,4 @@
-# Performance Of Programming Languages
+# Performance Of [Programming Languages](https://www.randomguy.info/2022/07/on-linux-and-programming-languages.html)
 
 |                               Language                              |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |
 |--------|--------|--------|--------|--------|--------|

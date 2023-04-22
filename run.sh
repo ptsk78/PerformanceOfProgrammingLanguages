@@ -60,6 +60,9 @@ install_languages() {
     install_pck
     pkg=jdk-openjdk
     install_pck
+    # some distros have different name
+    pkg=default-jdk
+    install_pck
     pkg=curl
     install_pck
     pkg=julia

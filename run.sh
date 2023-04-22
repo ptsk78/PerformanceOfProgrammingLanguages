@@ -72,6 +72,8 @@ install_languages() {
     pkg=nodejs
     install_pck
 
+    # this will not work on Ubuntu as they switched to apt install python3-*package*
+    # eventually might need update?
     pip3 install --upgrade -r requirements.txt
 
     # https://go.dev/dl/

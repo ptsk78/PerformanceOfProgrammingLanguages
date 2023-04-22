@@ -56,6 +56,8 @@ install_languages() {
     install_pck
     pkg=pypy
     install_pck
+    # seems like pypy can be installed on Ubuntu with snap these days
+    sudo snap install pypy --classic
     pkg=g++
     install_pck
     pkg=jdk-openjdk

@@ -1,0 +1,15 @@
+
+Lower is better - on XeroLinux 
+Linux-6.2.7-arch1-1-x86_64-with-glibc2.37 on 2023-04-24 with AMD Ryzen 7 5825U with Radeon Graphics and 13.5 GB of RAM memory:
+
+|                 Language                 |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |
+|:----------------------------------------:|:--------------------------------------------------------------------------------------:|:------------------------------------------:|:----------------------:|:---------------------:|:------------------------:|
+| [custom c++](https://www.randomguy.info) |                                         (0,0)                                          |                   0.343                    |         0.323          |         6.625         |          25.591          |
+|                   pypy                   |    Python 2.7.18 (646866ee1eabe7bdbdc97b47a40b472991d571e9, Dec 31 2022, 19:17:26)     |                   1.484                    |         1.388          |         6.686         |          20.498          |
+|                   rust                   |                          rustc 1.69.0 (84c898d65 2023-04-16)                           |                   1.536                    |         1.473          |         6.516         |          20.251          |
+|                   c++                    |                               g++ (GCC) 12.2.1 20230201                                |                   1.683                    |         1.605          |         6.555         |          20.230          |
+|                javascript                |                                        v19.9.0                                         |                   2.416                    |         2.148          |         7.030         |          20.718          |
+|                    c#                    |                                        7.0.203                                         |                   2.947                    |         2.712          |         6.790         |          21.625          |
+|                    go                    |                            go version go1.20.3 linux/amd64                             |                   3.732                    |         2.609          |         8.941         |          21.766          |
+|                   perl                   | This is perl 5, version 36, subversion 0 (v5.36.0) built for x86_64-linux-thread-multi |                   4.185                    |         3.958          |         6.609         |          21.757          |
+|                  julia                   |                                  julia version 1.8.5                                   |                   6.613                    |         6.172          |         6.696         |          32.931          |

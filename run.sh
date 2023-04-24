@@ -52,6 +52,9 @@ clean_up() {
 install_languages() {
     pkg=wget
     install_pck
+    # XeroLinux prefers this name over python3-pip and it makes sense
+    pkg=python-pip
+    install_pck
     pkg=python3-pip
     install_pck
     pkg=pypy
@@ -72,8 +75,6 @@ install_languages() {
     pkg=nodejs
     install_pck
 
-    # this will not work on Ubuntu as they switched to apt install python3-*package*
-    # eventually might need update?
     pip3 install --upgrade -r requirements.txt
 
     # https://go.dev/dl/

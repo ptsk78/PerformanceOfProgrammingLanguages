@@ -3,3 +3,6 @@ psutil
 matplotlib
 pandas
 distro
+google-search
+google
+

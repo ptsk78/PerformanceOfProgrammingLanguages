@@ -20,7 +20,7 @@ for fn in osfiles:
             if t not in res:
                 res[t] = []
             try:
-                res[t].append([osname, float(tmp[3])])
+                res[t].append([osname, float(tmp[3]), tmp[2].strip()])
             except:
                 pass
 

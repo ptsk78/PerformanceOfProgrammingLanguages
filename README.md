@@ -22,4 +22,7 @@ Linux-6.3.1-arch1-1-x86_64-with-glibc2.37 on 2023-05-09 with [AMD Ryzen 7 5825U 
 
 [Other OS results](./results_os/)
 
+[Linux Kernel](https://kernel.org/)
+
 [Distro Watch](https://distrowatch.com/)
+

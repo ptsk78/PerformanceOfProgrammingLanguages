@@ -1,5 +1,5 @@
 
-Lower is better - on KaOS 2023
+Lower is better - on [KaOS](https://kaosx.us/) 2023
 Linux-6.2.11-1-x86_64-with-glibc2.36 on 2023-04-21 with AMD Ryzen 7 5825U with Radeon Graphics and 13.5 GB of RAM memory:
 
 |                 Language                 |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |

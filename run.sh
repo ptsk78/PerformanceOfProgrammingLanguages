@@ -85,11 +85,11 @@ install_languages() {
     tar -C ./ -xzf go1.20.4.linux-amd64.tar.gz
 
     # https://dotnet.microsoft.com/en-us/download/dotnet
-    if [ ! -f ./dotnet-sdk-7.0.203-linux-x64.tar.gz ]; then
-        wget https://download.visualstudio.microsoft.com/download/pr/ebfd0bf8-79bd-480a-9e81-0b217463738d/9adc6bf0614ce02670101e278a2d8555/dotnet-sdk-7.0.203-linux-x64.tar.gz
+    if [ ! -f ./dotnet-sdk-7.0.302-linux-x64.tar.gz ]; then
+        wget https://download.visualstudio.microsoft.com/download/pr/351400ef-f2e6-4ee7-9d1b-4c246231a065/9f7826270fb36ada1bdb9e14bc8b5123/dotnet-sdk-7.0.302-linux-x64.tar.gz
     fi
     mkdir ./dotnet
-    tar zxf dotnet-sdk-7.0.203-linux-x64.tar.gz -C ./dotnet
+    tar zxf dotnet-sdk-7.0.302-linux-x64.tar.gz -C ./dotnet
     export DOTNET_ROOT=./dotnet
     export PATH=$PATH:./dotnet
 

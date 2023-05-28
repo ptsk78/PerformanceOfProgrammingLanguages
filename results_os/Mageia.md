@@ -1,0 +1,12 @@
+
+Lower is better - on [Mageia](https://commons.wikimedia.org/wiki/File:Mageia_Logo.png) 9
+Linux-6.3.1-desktop-1.mga9-x86_64-with-glibc2.36 on 2023-05-28 with [AMD Ryzen 7 5825U with Radeon Graphics](https://www.amd.com/en/products/apu/amd-ryzen-7-5825u) and 13.5 GB of RAM memory:
+
+|                               Language                              |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |
+|:-------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:------------------------------------------:|:----------------------:|:---------------------:|:------------------------:|
+|  [rust](https://en.wikipedia.org/wiki/Rust_(programming_language))  |                          rustc 1.69.0 (84c898d65 2023-04-16)                           |                   1.569                    |         1.541          |         6.363         |          13.343          |
+|        [javascript](https://en.wikipedia.org/wiki/JavaScript)       |                                        v18.16.0                                        |                   2.239                    |         2.091          |         6.693         |          13.835          |
+|  [c#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) |                                        7.0.203                                         |                   2.852                    |         2.762          |         6.453         |          14.766          |
+|    [go](https://en.wikipedia.org/wiki/Go_(programming_language))    |                            go version go1.20.4 linux/amd64                             |                   3.726                    |         2.641          |         8.817         |          14.676          |
+|              [perl](https://en.wikipedia.org/wiki/Perl)             | This is perl 5, version 36, subversion 0 (v5.36.0) built for x86_64-linux-thread-multi |                   5.114                    |         5.002          |         6.390         |          14.797          |
+| [julia](https://en.wikipedia.org/wiki/Julia_(programming_language)) |                                  julia version 1.8.5                                   |                   7.027                    |         6.542          |         6.714         |          19.175          |

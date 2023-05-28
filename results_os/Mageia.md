@@ -1,5 +1,5 @@
 
-Lower is better - on [Mageia](https://commons.wikimedia.org/wiki/File:Mageia_Logo.png) 9
+Lower is better - on [Mageia]([https://commons.wikimedia.org/wiki/File:Mageia_Logo.png](https://www.mageia.org/en/)) 9
 Linux-6.3.1-desktop-1.mga9-x86_64-with-glibc2.36 on 2023-05-28 with [AMD Ryzen 7 5825U with Radeon Graphics](https://www.amd.com/en/products/apu/amd-ryzen-7-5825u) and 13.5 GB of RAM memory:
 
 |                               Language                              |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |

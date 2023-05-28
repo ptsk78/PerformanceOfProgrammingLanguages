@@ -1,5 +1,5 @@
 
-Lower is better - on EndeavourOS 
+Lower is better - on [EndeavourOS](https://endeavouros.com/) 
 Linux-6.2.10-arch1-1-x86_64-with-glibc2.37 on 2023-04-09 with AMD Ryzen 7 5825U with Radeon Graphics and 13.5 GB of RAM memory:
 
 |                 Language                 |                                        Version                                         | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |

@@ -1,5 +1,5 @@
 
-Lower is better - on KUbuntu 23.04 (Lunar Lobster)
+Lower is better - on [KUbuntu](https://kubuntu.org/) 23.04 (Lunar Lobster)
 Linux-6.2.0-20-generic-x86_64-with-glibc2.37 on 2023-04-22 with AMD Ryzen 7 5825U with Radeon Graphics and 13.5 GB of RAM memory:
 
 |                 Language                 |                                          Version                                           | Adjusted time based on CPU usage (seconds) | Average time (seconds) | Average CPU usage (%) | Average memory usage (%) |
